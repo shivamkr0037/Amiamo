@@ -19,7 +19,7 @@ BOT_USERNAME = getenv("BOT_USERNAME" , "AnnayanXMusicBot")
 BOT_NAME = getenv("BOT_NAME" , "AnnayanX")
 #get Your Assistant User name
 ASSUSERNAME = getenv("ASSUSERNAME" , "AnnayanX")
-EVALOP = list(map(int, getenv("EVALOP", "6661364784").split()))
+EVALOP = list(map(int, getenv("EVALOP", "6366217850").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
@@ -29,7 +29,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 LOGGER_ID = int(getenv("LOGGER_ID", -1002097075186))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6661364784))
+OWNER_ID = int(getenv("OWNER_ID", 6366217850))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -47,7 +47,7 @@ GIT_TOKEN = getenv(
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AvyuktX")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BourbonFriends")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/AnnayanXSupport")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
